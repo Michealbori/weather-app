@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(to right, #9f879f, #f9bfda);
+}
+/* mySearch{
+background-color: blue;
+} */
+input{
+  width: 30em;
+}
+i{
+    background-image: -webkit-linear-gradient(seagreen, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6em;
+    /* margin-right: 10em; */
+    
+}
+
+  #colum1 {
+    background-image: linear-gradient(to right, black, gray); width:20em; height:20em; border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: none;
+
+  }
+  #colum2 {
+    background-image: linear-gradient(to right, black, gray); width:20em; height:20em; border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: none;
+
+  }
+
+  #colum3 {
+    background-image: linear-gradient(to right, black, gray); width:20em; height:28em; border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 10px;
+     display: none;
+
+  }
+
+  .rights{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+color: black;
+font-size: 1em;
+}
+.rights a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+background-image: -webkit-linear-gradient(red, #333);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 1em;
+}
+
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .colum1 {
+        background-image: linear-gradient(to right, black, gray); width:17em; height:20em; border-radius: 10px;
+        color: #fff;
+        margin-top: 20px;
+        padding-left: 10px;
+    
+      }
+      .colum2 {
+        background-image: linear-gradient(to right, black, gray); width:17em;  height:20em; border-radius: 10px;
+        color: #fff;
+        margin-top: 20px;
+        padding-left: 10px;
+    
+      }
+      .colum3 {
+        background-image: linear-gradient(to right, black, gray); width:17em; height:28em; border-radius: 10px;
+        color: #fff;
+        margin-top: 20px;
+        padding-left: 10px;
+    
+      }
+  }
+  
+
